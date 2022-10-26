@@ -1,0 +1,28 @@
+ALGORITHM Dot product
+VAR
+ V1 : ARRAY_Of INTEGER [5];
+ i: INTEGER;
+ V2 : ARRAY_Of INTEGER [5];
+ j: INTEGER;
+BEGIN
+
+ V1 := {3,5,6,8,1}
+ write('vect one')
+ V2 := {5,10,9,3,7}
+  write('vect two')
+  function 
+  VAR
+  x:INTEGER;
+  begin 
+  x:=0;
+  for i from 0 to 4 step  1 do 
+ for j from 0 to 4 step  1 do 
+x:= x+ (v1[i]*V2[j])
+ END_for
+ END_for
+
+ END
+ write(x); 
+
+
+END
